@@ -25,6 +25,18 @@ namespace StudentsDiary
 
             dgvDiary.DataSource = students;
 
+            dgvDiary.Columns[0].HeaderText = "Numer";
+            dgvDiary.Columns[1].HeaderText = "Imię";
+            dgvDiary.Columns[2].HeaderText = "Nazwisko";
+            dgvDiary.Columns[3].HeaderText = "Uwagi";
+            dgvDiary.Columns[4].HeaderText = "Matematyka";
+            dgvDiary.Columns[5].HeaderText = "Technologia";
+            dgvDiary.Columns[6].HeaderText = "Fizyka";
+            dgvDiary.Columns[7].HeaderText = "Język polski";
+            dgvDiary.Columns[8].HeaderText = "Język obcy";
+
+
+
             //var students = new List<Student>();
             //students.Add(new Student() { FirstName = "Jan" });
             //students.Add(new Student() { FirstName = "Krzysiek" });

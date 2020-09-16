@@ -242,7 +242,7 @@
             this.Controls.Add(this.lbId);
             this.Controls.Add(this.tbId);
             this.Name = "AddEditStudent";
-            this.Text = "AddEditStudent";
+            this.Text = "Dodawanie ucznia";
             this.ResumeLayout(false);
             this.PerformLayout();
 
